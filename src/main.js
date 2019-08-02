@@ -7,7 +7,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 // 导入路由配置
 import router from '@/router'
 // 导入axios
-import axios from 'axios'
+import axios from '@/api/axios'
 Vue.prototype.$http = axios
 // 注册到VUE实例
 Vue.use(ElementUI)
