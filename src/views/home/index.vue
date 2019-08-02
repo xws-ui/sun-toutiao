@@ -64,7 +64,9 @@
           </el-dropdown-menu>
         </el-dropdown>
       </el-header>
-      <el-main>Main</el-main>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
     </el-container>
   </el-container>
 </template>
@@ -99,8 +101,8 @@ export default {
       background: #024 url(../../assets/images/logo_admin.png) no-repeat center /
         140px auto;
     }
-    .close{
-      background-image:url(../../assets/images/logo_admin_01.png);
+    .close {
+      background-image: url(../../assets/images/logo_admin_01.png);
       background-size: 36px auto;
     }
   }
