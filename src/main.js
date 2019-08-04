@@ -6,8 +6,12 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 // 导入路由配置
 import router from '@/router'
+// 导入面包屑组件
+import components from '@/components'
 // 导入axios
 import axios from '@/api/axios'
+
+Vue.use(components)
 Vue.prototype.$http = axios
 // 注册到VUE实例
 Vue.use(ElementUI)
